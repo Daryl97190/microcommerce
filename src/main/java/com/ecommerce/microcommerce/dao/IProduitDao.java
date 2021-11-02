@@ -12,9 +12,9 @@ public class IProduitDao implements ProduitDao {
     
     public static List<Produit> produits = new ArrayList<>();
     static {
-        produits.add(new Produit(1, new String("Ordinateur portable"), 350));
-        produits.add(new Produit(2, new String("Aspirateur Robot"), 500));
-        produits.add(new Produit(3, new String("Table de Ping Pong"), 750));
+        produits.add(new Produit(1, new String("Ordinateur portable"), 350 , 333));
+        produits.add(new Produit(2, new String("Aspirateur Robot"), 500, 250));
+        produits.add(new Produit(3, new String("Table de Ping Pong"), 750, 620));
     }
 
     @Override
